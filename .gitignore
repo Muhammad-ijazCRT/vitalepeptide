@@ -1,0 +1,8 @@
+node_modules
+.next
+.env.local
+.env
+*.log
+
+# Local user-uploaded avatars (API serves from /uploads)
+backend/uploads/

@@ -1,0 +1,55 @@
+.payment-history-page .ph-card-accent {
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
+.payment-history-page .ph-card-accent--pending {
+  border-left-color: #f0ad4e;
+}
+
+.payment-history-page .ph-card-accent--paid {
+  border-left-color: #5cb85c;
+}
+
+.payment-history-page .ph-card-accent--total {
+  border-left-color: #5b9bd5;
+}
+
+.payment-history-page .ph-badge {
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+}
+
+.payment-history-page .ph-badge--pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.payment-history-page .ph-badge--paid {
+  background: #d4edda;
+  color: #155724;
+}
+
+.payment-history-page .ph-badge--other {
+  background: #e2e3e5;
+  color: #383d41;
+}
+
+.payment-history-page .ph-table-wrap {
+  overflow-x: auto;
+}
+
+.payment-history-page .ph-table th {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6c757d;
+  font-weight: 600;
+  border-bottom-width: 1px;
+  white-space: nowrap;
+}
+
+.payment-history-page .ph-table td {
+  vertical-align: middle;
+  font-size: 0.875rem;
+}

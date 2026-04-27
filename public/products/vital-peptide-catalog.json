@@ -1,0 +1,1342 @@
+{
+  "exportedAt": "2026-04-26T13:01:08.728Z",
+  "source": "https://vital-peptide.myshopify.com",
+  "products": [
+    {
+      "shopify": {
+        "id": 8084729233455,
+        "handle": "vitale-peptide-5-amino-1mq",
+        "title": "5 AMINO 1MQ",
+        "body_html": "<p><span>5-Amino-1MQ is a small-molecule compound studied in pre-clinical research for its potential role in regulating cellular metabolism and NAD⁺ pathways. Research has focused on its interaction with </span><span>nicotinamide N-methyltransferase (NNMT)</span><span>, an enzyme associated with metabolic activity and energy balance in laboratory models.</span></p>\n<p> </p>\n<p><span>Intended Use:</span></p>\n<p><span>This product is provided </span><span>for laboratory research use only.</span><span> It is </span><span>not approved for human use, consumption, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596494565423,
+            "product_id": 8084729233455,
+            "title": "10mg",
+            "price": "54.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:43:24-04:00",
+            "updated_at": "2026-04-26T09:01:06-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37908796932143,
+            "product_id": 8084729233455,
+            "position": 1,
+            "created_at": "2025-10-24T13:44:47-04:00",
+            "updated_at": "2025-10-24T13:44:48-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/amino_af6bfa2b-7e60-464d-a279-3811dfbb8e7e.png?v=1761327888",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246218383407,
+            "product_id": 8084729233455,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/amino_af6bfa2b-7e60-464d-a279-3811dfbb8e7e.png?v=1761327888",
+        "stem": "amino_af6bfa2b-7e60-464d-a279-3811dfbb8e7e",
+        "localFile": "amino_af6bfa2b-7e60-464d-a279-3811dfbb8e7e.webp",
+        "publicUrl": "/products/amino_af6bfa2b-7e60-464d-a279-3811dfbb8e7e.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-5-amino-1mq",
+        "name": "5 AMINO 1MQ",
+        "shortDescription": "5-Amino-1MQ is a small-molecule compound studied in pre-clinical research for its potential role in regulating cellular metabolism and NAD⁺",
+        "description": "5-Amino-1MQ is a small-molecule compound studied in pre-clinical research for its potential role in regulating cellular metabolism and NAD⁺ pathways. Research has focused on its interaction with nicotinamide N-methyltransferase (NNMT) , an enzyme associated with metabolic activity and energy balance in laboratory models. Intended Use: This product is provided for laboratory research use only. It is not approved for human use, consumption, or therapeutic application.",
+        "price": 54.99,
+        "imageUrl": "/products/amino_af6bfa2b-7e60-464d-a279-3811dfbb8e7e.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8080705486895,
+        "handle": "vital-peptide-bpc-157",
+        "title": "BPC 157",
+        "body_html": "<p><span>BPC-157 is a </span><span>research peptide</span><span> that scientists study for its possible role in </span><span>cell repair and recovery</span><span>. It comes from a natural compound found in the stomach and is being researched for how it may help </span><span>support healing and protect cells</span><span> in lab studies.</span></p>\n<p> </p>\n<p><span>Product Details:</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Type: Research-grade peptide</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Category: Regenerative and recovery research</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Storage: Keep in a cool, dry place away from light</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>For professional laboratory research use only</span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vital Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44583797325871,
+            "product_id": 8080705486895,
+            "title": "5Mg",
+            "price": "39.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "5Mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-15T06:45:53-04:00",
+            "updated_at": "2026-04-26T09:01:06-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          },
+          {
+            "id": 44583797358639,
+            "product_id": 8080705486895,
+            "title": "10Mg",
+            "price": "74.99",
+            "sku": null,
+            "position": 2,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10Mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-15T06:45:53-04:00",
+            "updated_at": "2026-04-26T09:01:06-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37908703019055,
+            "product_id": 8080705486895,
+            "position": 1,
+            "created_at": "2025-10-24T13:32:19-04:00",
+            "updated_at": "2025-10-24T13:32:21-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/bpc157_128b5b0b-af6a-43f4-8c8e-0837f3af6e8a.png?v=1761327141",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10237442162735,
+            "product_id": 8080705486895,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "5Mg",
+              "10Mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/bpc157_128b5b0b-af6a-43f4-8c8e-0837f3af6e8a.png?v=1761327141",
+        "stem": "bpc157_128b5b0b-af6a-43f4-8c8e-0837f3af6e8a",
+        "localFile": "bpc157_128b5b0b-af6a-43f4-8c8e-0837f3af6e8a.webp",
+        "publicUrl": "/products/bpc157_128b5b0b-af6a-43f4-8c8e-0837f3af6e8a.webp"
+      },
+      "seed": {
+        "slug": "vital-peptide-bpc-157",
+        "name": "BPC 157",
+        "shortDescription": "BPC-157 is a research peptide that scientists study for its possible role in cell repair and recovery . It comes from a natural compound fou",
+        "description": "BPC-157 is a research peptide that scientists study for its possible role in cell repair and recovery . It comes from a natural compound found in the stomach and is being researched for how it may help support healing and protect cells in lab studies. Product Details: • Type: Research-grade peptide • Category: Regenerative and recovery research • Storage: Keep in a cool, dry place away from light • For professional laboratory research use only Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 39.99,
+        "imageUrl": "/products/bpc157_128b5b0b-af6a-43f4-8c8e-0837f3af6e8a.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084729102383,
+        "handle": "vitale-peptie-selank",
+        "title": "SELANK",
+        "body_html": "<p><span>SELANK is a </span><span>synthetic research peptide</span><span> derived from the natural human tetrapeptide tuftsin. It has been widely studied in </span><span>scientific and pre-clinical research</span><span> for its potential effects on </span><span>cognitive performance, mood balance, and stress modulation</span><span>. Research models suggest SELANK may influence </span><span>GABA and serotonin activity</span><span>, pathways associated with learning, focus, and relaxation.</span></p>\n<p> </p>\n<p><span>Intended Use:</span></p>\n<p><span>This compound is supplied </span><span>for laboratory research use only.</span><span> It is </span><span>not approved for human consumption, medical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596494368815,
+            "product_id": 8084729102383,
+            "title": "10mg",
+            "price": "39.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:40:36-04:00",
+            "updated_at": "2026-04-26T09:00:33-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37908988362799,
+            "product_id": 8084729102383,
+            "position": 1,
+            "created_at": "2025-10-24T14:11:18-04:00",
+            "updated_at": "2025-10-24T14:11:19-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/selankwhite.png?v=1761329479",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246218154031,
+            "product_id": 8084729102383,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/selankwhite.png?v=1761329479",
+        "stem": "selankwhite",
+        "localFile": "selankwhite.webp",
+        "publicUrl": "/products/selankwhite.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptie-selank",
+        "name": "SELANK",
+        "shortDescription": "SELANK is a synthetic research peptide derived from the natural human tetrapeptide tuftsin. It has been widely studied in scientific and pre",
+        "description": "SELANK is a synthetic research peptide derived from the natural human tetrapeptide tuftsin. It has been widely studied in scientific and pre-clinical research for its potential effects on cognitive performance, mood balance, and stress modulation . Research models suggest SELANK may influence GABA and serotonin activity , pathways associated with learning, focus, and relaxation. Intended Use: This compound is supplied for laboratory research use only. It is not approved for human consumption, medical use, or therapeutic application.",
+        "price": 39.99,
+        "imageUrl": "/products/selankwhite.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084727791663,
+        "handle": "vitale-peptide-slu-pp-332",
+        "title": "SLU-PP-332",
+        "body_html": "<p><span>SLU-PP-332 is a </span><span>novel small-molecule research compound</span><span> studied for its potential influence on </span><span>energy metabolism, endurance, and mitochondrial biogenesis</span><span>. In scientific research, SLU-PP-332 has been investigated for its ability to </span><span>activate PPARδ pathways</span><span>, which may play a role in regulating </span><span>fat metabolism, energy utilization, and cellular performance</span><span> in laboratory models. This compound continues to be of interest in </span><span>metabolic and performance-related research</span><span> settings.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596490469423,
+            "product_id": 8084727791663,
+            "title": "5Mg",
+            "price": "64.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "5Mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:17:27-04:00",
+            "updated_at": "2026-04-26T09:01:07-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37913608454191,
+            "product_id": 8084727791663,
+            "position": 1,
+            "created_at": "2025-10-25T15:18:15-04:00",
+            "updated_at": "2025-10-25T15:18:17-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/slupp32white.png?v=1761419897",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246216613935,
+            "product_id": 8084727791663,
+            "name": "Mgs",
+            "position": 1,
+            "values": [
+              "5Mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/slupp32white.png?v=1761419897",
+        "stem": "slupp32white",
+        "localFile": "slupp32white.webp",
+        "publicUrl": "/products/slupp32white.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-slu-pp-332",
+        "name": "SLU-PP-332",
+        "shortDescription": "SLU-PP-332 is a novel small-molecule research compound studied for its potential influence on energy metabolism, endurance, and mitochondria",
+        "description": "SLU-PP-332 is a novel small-molecule research compound studied for its potential influence on energy metabolism, endurance, and mitochondrial biogenesis . In scientific research, SLU-PP-332 has been investigated for its ability to activate PPARδ pathways , which may play a role in regulating fat metabolism, energy utilization, and cellular performance in laboratory models. This compound continues to be of interest in metabolic and performance-related research settings.",
+        "price": 64.99,
+        "imageUrl": "/products/slupp32white.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084727726127,
+        "handle": "vitale-peptide-sermorelin",
+        "title": "Sermorelin",
+        "body_html": "<p><span>Sermorelin is a </span><span>synthetic peptide analog of growth hormone–releasing hormone (GHRH 1–29)</span><span>, studied in research for its potential to </span><span>stimulate endogenous growth hormone production</span><span> through interaction with the </span><span>pituitary GHRH receptor</span><span>. In laboratory studies, Sermorelin has been explored for its role in </span><span>endocrine system function, metabolism, and cellular regeneration pathways</span><span>, making it a key focus in </span><span>growth hormone and age-related research models</span><span>.</span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596490403887,
+            "product_id": 8084727726127,
+            "title": "10Mg",
+            "price": "89.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10Mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:15:59-04:00",
+            "updated_at": "2026-04-26T09:01:07-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37913605013551,
+            "product_id": 8084727726127,
+            "position": 1,
+            "created_at": "2025-10-25T15:15:36-04:00",
+            "updated_at": "2025-10-25T15:15:38-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/sermolinwhite.png?v=1761419738",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246216548399,
+            "product_id": 8084727726127,
+            "name": "Mgs",
+            "position": 1,
+            "values": [
+              "10Mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/sermolinwhite.png?v=1761419738",
+        "stem": "sermolinwhite",
+        "localFile": "sermolinwhite.webp",
+        "publicUrl": "/products/sermolinwhite.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-sermorelin",
+        "name": "Sermorelin",
+        "shortDescription": "Sermorelin is a synthetic peptide analog of growth hormone–releasing hormone (GHRH 1–29) , studied in research for its potential to stimulat",
+        "description": "Sermorelin is a synthetic peptide analog of growth hormone–releasing hormone (GHRH 1–29) , studied in research for its potential to stimulate endogenous growth hormone production through interaction with the pituitary GHRH receptor . In laboratory studies, Sermorelin has been explored for its role in endocrine system function, metabolism, and cellular regeneration pathways , making it a key focus in growth hormone and age-related research models . Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 89.99,
+        "imageUrl": "/products/sermolinwhite.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084729167919,
+        "handle": "vitale-peptide-semax",
+        "title": "SEMAX",
+        "body_html": "<p><span>SEMAX is a synthetic peptide fragment derived from the adrenocorticotropic hormone (ACTH 4-10) sequence, widely studied in pre-clinical research for its potential role in supporting </span><span>cognitive function, neuroprotection, and stress response</span><span> in laboratory models. Research has explored its influence on </span><span>brain-derived neurotrophic factor (BDNF)</span><span> expression and neurological pathways associated with learning and memory.</span></p>\n<p> </p>\n<p><span>Intended Use:</span></p>\n<p><span>This product is provided </span><span>for laboratory research use only.</span><span> It is </span><span>not approved for human use, consumption, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596494467119,
+            "product_id": 8084729167919,
+            "title": "10mg",
+            "price": "49.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:42:17-04:00",
+            "updated_at": "2026-04-26T09:01:07-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 38120369193007,
+            "product_id": 8084729167919,
+            "position": 1,
+            "created_at": "2025-12-03T08:01:52-05:00",
+            "updated_at": "2025-12-03T08:01:53-05:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/semax_white_1000x1000_1f4400f1-84ed-40df-b7da-f29f5207f51b.png?v=1764766913",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246218219567,
+            "product_id": 8084729167919,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/semax_white_1000x1000_1f4400f1-84ed-40df-b7da-f29f5207f51b.png?v=1764766913",
+        "stem": "semax_white_1000x1000_1f4400f1-84ed-40df-b7da-f29f5207f51b",
+        "localFile": "semax_white_1000x1000_1f4400f1-84ed-40df-b7da-f29f5207f51b.webp",
+        "publicUrl": "/products/semax_white_1000x1000_1f4400f1-84ed-40df-b7da-f29f5207f51b.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-semax",
+        "name": "SEMAX",
+        "shortDescription": "SEMAX is a synthetic peptide fragment derived from the adrenocorticotropic hormone (ACTH 4-10) sequence, widely studied in pre-clinical rese",
+        "description": "SEMAX is a synthetic peptide fragment derived from the adrenocorticotropic hormone (ACTH 4-10) sequence, widely studied in pre-clinical research for its potential role in supporting cognitive function, neuroprotection, and stress response in laboratory models. Research has explored its influence on brain-derived neurotrophic factor (BDNF) expression and neurological pathways associated with learning and memory. Intended Use: This product is provided for laboratory research use only. It is not approved for human use, consumption, or therapeutic application.",
+        "price": 49.99,
+        "imageUrl": "/products/semax_white_1000x1000_1f4400f1-84ed-40df-b7da-f29f5207f51b.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084729004079,
+        "handle": "vitale-peptide-nad",
+        "title": "NAD+",
+        "body_html": "<p><span>NAD⁺ is a </span><span>coenzyme found in all living cells</span><span>, essential for </span><span>cellular energy production, redox balance, and metabolic regulation</span><span>. In pre-clinical research, NAD⁺ has been studied for its potential role in </span><span>supporting mitochondrial function, DNA repair, and healthy aging</span><span>. Scientists often explore NAD⁺ in the context of </span><span>metabolic health, neuroprotection, and energy metabolism</span><span> within controlled laboratory environments.</span></p>\n<p> </p>\n<p><span>Intended Use:</span></p>\n<p><span>This product is supplied </span><span>for laboratory research use only.</span><span> It is </span><span>not approved for human use, consumption, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596494204975,
+            "product_id": 8084729004079,
+            "title": "500mg",
+            "price": "69.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "500mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:39:21-04:00",
+            "updated_at": "2026-04-26T09:00:34-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 38120391245871,
+            "product_id": 8084729004079,
+            "position": 1,
+            "created_at": "2025-12-03T08:12:28-05:00",
+            "updated_at": "2025-12-03T08:12:29-05:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/nadwhite_1000x1000_7e337752-1df4-4544-9a6f-871f671951fb.png?v=1764767549",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246218055727,
+            "product_id": 8084729004079,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "500mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/nadwhite_1000x1000_7e337752-1df4-4544-9a6f-871f671951fb.png?v=1764767549",
+        "stem": "nadwhite_1000x1000_7e337752-1df4-4544-9a6f-871f671951fb",
+        "localFile": "nadwhite_1000x1000_7e337752-1df4-4544-9a6f-871f671951fb.webp",
+        "publicUrl": "/products/nadwhite_1000x1000_7e337752-1df4-4544-9a6f-871f671951fb.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-nad",
+        "name": "NAD+",
+        "shortDescription": "NAD⁺ is a coenzyme found in all living cells , essential for cellular energy production, redox balance, and metabolic regulation . In pre-cl",
+        "description": "NAD⁺ is a coenzyme found in all living cells , essential for cellular energy production, redox balance, and metabolic regulation . In pre-clinical research, NAD⁺ has been studied for its potential role in supporting mitochondrial function, DNA repair, and healthy aging . Scientists often explore NAD⁺ in the context of metabolic health, neuroprotection, and energy metabolism within controlled laboratory environments. Intended Use: This product is supplied for laboratory research use only. It is not approved for human use, consumption, or therapeutic application.",
+        "price": 69.99,
+        "imageUrl": "/products/nadwhite_1000x1000_7e337752-1df4-4544-9a6f-871f671951fb.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084728807471,
+        "handle": "vitale-peptide-melanotan-ii-mt-ii",
+        "title": "Melanotan II",
+        "body_html": "<p><span>Melanotan II is a </span><span>synthetic research peptide</span><span> developed to mimic the natural hormone </span><span>α-MSH (alpha-melanocyte-stimulating hormone)</span><span>, which is involved in the body’s </span><span>pigmentation and metabolic processes</span><span>. In scientific studies, Melanotan II has been researched for how it interacts with </span><span>melanocortin receptors</span><span>, which help regulate </span><span>skin tone, energy balance, and other biological functions</span><span> in lab environments.</span></p>\n<p> </p>\n<p><span>This product is provided </span><span>for laboratory research use only.</span><span> It is </span><span>not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596493942831,
+            "product_id": 8084728807471,
+            "title": "10mg",
+            "price": "44.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:37:20-04:00",
+            "updated_at": "2026-04-26T09:00:35-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 38120384069679,
+            "product_id": 8084728807471,
+            "position": 1,
+            "created_at": "2025-12-03T08:09:13-05:00",
+            "updated_at": "2025-12-03T08:09:14-05:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/melanotan22_edited_1000x1000_e8a0f720-4f63-46a7-88d5-1ab49028c636.png?v=1764767354",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246217859119,
+            "product_id": 8084728807471,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/melanotan22_edited_1000x1000_e8a0f720-4f63-46a7-88d5-1ab49028c636.png?v=1764767354",
+        "stem": "melanotan22_edited_1000x1000_e8a0f720-4f63-46a7-88d5-1ab49028c636",
+        "localFile": "melanotan22_edited_1000x1000_e8a0f720-4f63-46a7-88d5-1ab49028c636.webp",
+        "publicUrl": "/products/melanotan22_edited_1000x1000_e8a0f720-4f63-46a7-88d5-1ab49028c636.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-melanotan-ii-mt-ii",
+        "name": "Melanotan II",
+        "shortDescription": "Melanotan II is a synthetic research peptide developed to mimic the natural hormone α-MSH (alpha-melanocyte-stimulating hormone) , which is",
+        "description": "Melanotan II is a synthetic research peptide developed to mimic the natural hormone α-MSH (alpha-melanocyte-stimulating hormone) , which is involved in the body’s pigmentation and metabolic processes . In scientific studies, Melanotan II has been researched for how it interacts with melanocortin receptors , which help regulate skin tone, energy balance, and other biological functions in lab environments. This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 44.99,
+        "imageUrl": "/products/melanotan22_edited_1000x1000_e8a0f720-4f63-46a7-88d5-1ab49028c636.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084728086575,
+        "handle": "vitale-peptide-mots-c",
+        "title": "MOTS C",
+        "body_html": "<p><span>MOTS-c is a </span><span>mitochondrial-derived research peptide</span><span> studied for its potential role in </span><span>cellular energy regulation, metabolic balance, and mitochondrial function</span><span>. In pre-clinical research, MOTS-c has been investigated for its influence on </span><span>AMPK activation</span><span> and its possible involvement in pathways that help support </span><span>metabolic homeostasis and cellular stress response</span><span>. Researchers often explore MOTS-c for its potential effects on </span><span>metabolic signaling and energy utilization</span><span> within controlled laboratory environments.<br><br></span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596491616303,
+            "product_id": 8084728086575,
+            "title": "10mg",
+            "price": "59.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:20:35-04:00",
+            "updated_at": "2026-04-26T08:58:46-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 38120373289007,
+            "product_id": 8084728086575,
+            "position": 1,
+            "created_at": "2025-12-03T08:04:47-05:00",
+            "updated_at": "2025-12-03T08:04:48-05:00",
+            "alt": null,
+            "width": 1000,
+            "height": 1000,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/motcwhite_1000x1000_f3dbe66b-01ca-47fa-b525-23c5403d04d5.png?v=1764767088",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246217007151,
+            "product_id": 8084728086575,
+            "name": "Mgs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/motcwhite_1000x1000_f3dbe66b-01ca-47fa-b525-23c5403d04d5.png?v=1764767088",
+        "stem": "motcwhite_1000x1000_f3dbe66b-01ca-47fa-b525-23c5403d04d5",
+        "localFile": "motcwhite_1000x1000_f3dbe66b-01ca-47fa-b525-23c5403d04d5.webp",
+        "publicUrl": "/products/motcwhite_1000x1000_f3dbe66b-01ca-47fa-b525-23c5403d04d5.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-mots-c",
+        "name": "MOTS C",
+        "shortDescription": "MOTS-c is a mitochondrial-derived research peptide studied for its potential role in cellular energy regulation, metabolic balance, and mito",
+        "description": "MOTS-c is a mitochondrial-derived research peptide studied for its potential role in cellular energy regulation, metabolic balance, and mitochondrial function . In pre-clinical research, MOTS-c has been investigated for its influence on AMPK activation and its possible involvement in pathways that help support metabolic homeostasis and cellular stress response . Researchers often explore MOTS-c for its potential effects on metabolic signaling and energy utilization within controlled laboratory environments. Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 59.99,
+        "imageUrl": "/products/motcwhite_1000x1000_f3dbe66b-01ca-47fa-b525-23c5403d04d5.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084728840239,
+        "handle": "vitale-peptide-kisspeptin",
+        "title": "KISSPEPTIN",
+        "body_html": "<p><span>Kisspeptin is a naturally occurring </span><span>neuropeptide</span><span> studied in pre-clinical research for its potential role in </span><span>regulating reproductive hormone activity, fertility pathways, and endocrine signaling</span><span>. It acts through the </span><span>KISS1 receptor (GPR54)</span><span> and has been a focus of scientific studies exploring its effects on </span><span>GnRH release, hormonal balance, and hypothalamic-pituitary function</span><span> in laboratory models.</span></p>\n<p> </p>\n<p><span>Intended Use:</span></p>\n<p><span>This product is provided </span><span>for laboratory research use only.</span><span> It is </span><span>not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596493975599,
+            "product_id": 8084728840239,
+            "title": "10mg",
+            "price": "59.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:38:22-04:00",
+            "updated_at": "2026-04-26T09:01:08-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37899461197871,
+            "product_id": 8084728840239,
+            "position": 1,
+            "created_at": "2025-10-23T14:14:21-04:00",
+            "updated_at": "2025-10-23T14:14:31-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/kiss.png?v=1761243271",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246217891887,
+            "product_id": 8084728840239,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/kiss.png?v=1761243271",
+        "stem": "kiss",
+        "localFile": "kiss.webp",
+        "publicUrl": "/products/kiss.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-kisspeptin",
+        "name": "KISSPEPTIN",
+        "shortDescription": "Kisspeptin is a naturally occurring neuropeptide studied in pre-clinical research for its potential role in regulating reproductive hormone",
+        "description": "Kisspeptin is a naturally occurring neuropeptide studied in pre-clinical research for its potential role in regulating reproductive hormone activity, fertility pathways, and endocrine signaling . It acts through the KISS1 receptor (GPR54) and has been a focus of scientific studies exploring its effects on GnRH release, hormonal balance, and hypothalamic-pituitary function in laboratory models. Intended Use: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 59.99,
+        "imageUrl": "/products/kiss.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084728381487,
+        "handle": "vitale-peptide-ipamorelin",
+        "title": "Ipamorelin",
+        "body_html": "<p><span>Ipamorelin is a </span><span>synthetic pentapeptide</span><span> studied in research for its potential ability to </span><span>stimulate the natural release of growth hormone (GH)</span><span> through selective action on </span><span>ghrelin receptors (GHRP family)</span><span>. In laboratory studies, Ipamorelin has shown interest for its targeted receptor activity, making it a focus in </span><span>endocrine and metabolic research</span><span> without affecting other hormonal pathways.</span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596493025327,
+            "product_id": 8084728381487,
+            "title": "10mg",
+            "price": "64.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:28:23-04:00",
+            "updated_at": "2026-04-26T09:01:08-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37909230780463,
+            "product_id": 8084728381487,
+            "position": 1,
+            "created_at": "2025-10-24T14:42:39-04:00",
+            "updated_at": "2025-10-24T14:42:41-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/lpawhitenew.png?v=1761331361",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246217400367,
+            "product_id": 8084728381487,
+            "name": "Mgs",
+            "position": 1,
+            "values": [
+              "10mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/lpawhitenew.png?v=1761331361",
+        "stem": "lpawhitenew",
+        "localFile": "lpawhitenew.webp",
+        "publicUrl": "/products/lpawhitenew.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-ipamorelin",
+        "name": "Ipamorelin",
+        "shortDescription": "Ipamorelin is a synthetic pentapeptide studied in research for its potential ability to stimulate the natural release of growth hormone (GH)",
+        "description": "Ipamorelin is a synthetic pentapeptide studied in research for its potential ability to stimulate the natural release of growth hormone (GH) through selective action on ghrelin receptors (GHRP family) . In laboratory studies, Ipamorelin has shown interest for its targeted receptor activity, making it a focus in endocrine and metabolic research without affecting other hormonal pathways. Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 64.99,
+        "imageUrl": "/products/lpawhitenew.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084729462831,
+        "handle": "vitale-peptide-glow",
+        "title": "GLOW",
+        "body_html": "<p><span>Glow Peptide is a </span><span>premium research-grade blend</span><span> combining </span><span>BPC-157 (10 mg)</span><span>, </span><span>TB-500 (10 mg)</span><span>, and </span><span>GHK-Cu (50 mg)</span><span>. Formulated for </span><span>laboratory studies</span><span> on skin health, collagen support, and tissue recovery, this compound delivers exceptional </span><span>purity (≥99% HPLC tested)</span><span> and reliability for scientific applications.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596494958639,
+            "product_id": 8084729462831,
+            "title": "70mg",
+            "price": "169.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "70mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:45:14-04:00",
+            "updated_at": "2026-04-26T09:01:08-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37908727431215,
+            "product_id": 8084729462831,
+            "position": 1,
+            "created_at": "2025-10-24T13:35:25-04:00",
+            "updated_at": "2025-10-24T13:35:26-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/glowwhite_e8eaad13-50ee-4113-b37b-ea1cb1f3aede.png?v=1761327326",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246218809391,
+            "product_id": 8084729462831,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "70mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/glowwhite_e8eaad13-50ee-4113-b37b-ea1cb1f3aede.png?v=1761327326",
+        "stem": "glowwhite_e8eaad13-50ee-4113-b37b-ea1cb1f3aede",
+        "localFile": "glowwhite_e8eaad13-50ee-4113-b37b-ea1cb1f3aede.webp",
+        "publicUrl": "/products/glowwhite_e8eaad13-50ee-4113-b37b-ea1cb1f3aede.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-glow",
+        "name": "GLOW",
+        "shortDescription": "Glow Peptide is a premium research-grade blend combining BPC-157 (10 mg) , TB-500 (10 mg) , and GHK-Cu (50 mg) . Formulated for laboratory s",
+        "description": "Glow Peptide is a premium research-grade blend combining BPC-157 (10 mg) , TB-500 (10 mg) , and GHK-Cu (50 mg) . Formulated for laboratory studies on skin health, collagen support, and tissue recovery, this compound delivers exceptional purity (≥99% HPLC tested) and reliability for scientific applications.",
+        "price": 169.99,
+        "imageUrl": "/products/glowwhite_e8eaad13-50ee-4113-b37b-ea1cb1f3aede.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084728217647,
+        "handle": "vitale-peptide-cjc-1295w-ipamorelin-no-dac",
+        "title": "CJC 1295W/Ipamorelin ( NO DAC)",
+        "body_html": "<p><span>CJC-1295 (No DAC) combined with </span><span>Ipamorelin</span><span> is a </span><span>research peptide blend</span><span> studied for its potential role in </span><span>stimulating endogenous growth hormone (GH) release</span><span>. In pre-clinical studies, this combination has been used to explore </span><span>synergistic effects on the GH axis</span><span>, with CJC-1295 supporting </span><span>GHRH receptor activity</span><span> and Ipamorelin acting on </span><span>ghrelin receptors (GHRP family)</span><span>. Researchers have examined this pairing for its potential relevance to </span><span>metabolic function, cellular recovery, and hormone regulation</span><span> under controlled laboratory conditions.</span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596491911215,
+            "product_id": 8084728217647,
+            "title": "5Mg Each",
+            "price": "64.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "5Mg Each",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:24:27-04:00",
+            "updated_at": "2026-04-26T09:01:09-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37909257682991,
+            "product_id": 8084728217647,
+            "position": 1,
+            "created_at": "2025-10-24T14:46:39-04:00",
+            "updated_at": "2025-10-24T14:46:41-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/CJC_1295W.png?v=1761331601",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246217170991,
+            "product_id": 8084728217647,
+            "name": "Mgs",
+            "position": 1,
+            "values": [
+              "5Mg Each"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/CJC_1295W.png?v=1761331601",
+        "stem": "CJC_1295W",
+        "localFile": "CJC_1295W.webp",
+        "publicUrl": "/products/CJC_1295W.webp"
+      },
+      "seed": {
+        "slug": "vitale-peptide-cjc-1295w-ipamorelin-no-dac",
+        "name": "CJC 1295W/Ipamorelin ( NO DAC)",
+        "shortDescription": "CJC-1295 (No DAC) combined with Ipamorelin is a research peptide blend studied for its potential role in stimulating endogenous growth hormo",
+        "description": "CJC-1295 (No DAC) combined with Ipamorelin is a research peptide blend studied for its potential role in stimulating endogenous growth hormone (GH) release . In pre-clinical studies, this combination has been used to explore synergistic effects on the GH axis , with CJC-1295 supporting GHRH receptor activity and Ipamorelin acting on ghrelin receptors (GHRP family) . Researchers have examined this pairing for its potential relevance to metabolic function, cellular recovery, and hormone regulation under controlled laboratory conditions. Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 64.99,
+        "imageUrl": "/products/CJC_1295W.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8080706371631,
+        "handle": "vital-peptide-tb-500",
+        "title": "TB-500",
+        "body_html": "<p><span>TB-500 is a </span><span>synthetic research peptide</span><span> related to </span><span>Thymosin Beta-4</span><span>, a natural protein found in the body. It has been studied for its possible role in </span><span>cell growth, recovery, and repair</span><span> in laboratory settings. Researchers are interested in how TB-500 may help </span><span>support cellular function and regeneration</span><span> in controlled scientific studies.</span></p>\n<p> </p>\n<p><span>Product Details:</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Type: Research-grade peptide</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Category: Regenerative and recovery research</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Storage: Store in a cool, dry place away from light</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>For professional laboratory research use only</span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vital Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44583798767663,
+            "product_id": 8080706371631,
+            "title": "5Mg",
+            "price": "44.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "5Mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-15T06:49:39-04:00",
+            "updated_at": "2026-04-26T08:58:54-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          },
+          {
+            "id": 44583798800431,
+            "product_id": 8080706371631,
+            "title": "10Mg",
+            "price": "99.99",
+            "sku": null,
+            "position": 2,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "10Mg",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-15T06:49:39-04:00",
+            "updated_at": "2026-04-26T08:58:54-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 37887736348719,
+            "product_id": 8080706371631,
+            "position": 1,
+            "created_at": "2025-10-20T13:05:01-04:00",
+            "updated_at": "2025-10-20T13:07:25-04:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/tb500_e1e5d626-9dc7-4a20-81e4-5d7ab8255c5f.png?v=1760980045",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10237443047471,
+            "product_id": 8080706371631,
+            "name": "MGs",
+            "position": 1,
+            "values": [
+              "5Mg",
+              "10Mg"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/tb500_e1e5d626-9dc7-4a20-81e4-5d7ab8255c5f.png?v=1760980045",
+        "stem": "tb500_e1e5d626-9dc7-4a20-81e4-5d7ab8255c5f",
+        "localFile": "tb500_e1e5d626-9dc7-4a20-81e4-5d7ab8255c5f.webp",
+        "publicUrl": "/products/tb500_e1e5d626-9dc7-4a20-81e4-5d7ab8255c5f.webp"
+      },
+      "seed": {
+        "slug": "vital-peptide-tb-500",
+        "name": "TB-500",
+        "shortDescription": "TB-500 is a synthetic research peptide related to Thymosin Beta-4 , a natural protein found in the body. It has been studied for its possibl",
+        "description": "TB-500 is a synthetic research peptide related to Thymosin Beta-4 , a natural protein found in the body. It has been studied for its possible role in cell growth, recovery, and repair in laboratory settings. Researchers are interested in how TB-500 may help support cellular function and regeneration in controlled scientific studies. Product Details: • Type: Research-grade peptide • Category: Regenerative and recovery research • Storage: Store in a cool, dry place away from light • For professional laboratory research use only Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 44.99,
+        "imageUrl": "/products/tb500_e1e5d626-9dc7-4a20-81e4-5d7ab8255c5f.webp",
+        "category": "Peptides"
+      }
+    },
+    {
+      "shopify": {
+        "id": 8084727463983,
+        "handle": "bpc-157-tb-500blend",
+        "title": "BPC 157 & TB 500 Blend",
+        "body_html": "<p><span>The </span><span>BPC-157 &amp; TB-500 Blend</span><span> is a </span><span>research peptide combination</span><span> formulated with </span><span>5 mg of BPC-157</span><span> and </span><span>5 mg of TB-500</span><span> per vial. This blend is studied in </span><span>regenerative and tissue-repair research</span><span> for its potential to support </span><span>cell recovery, inflammation modulation, and enhanced healing responses</span><span> in laboratory settings.</span></p>\n<p><span>BPC-157, a synthetic fragment of the Body Protection Compound, has been studied for its role in </span><span>angiogenesis and cellular protection</span><span>, while TB-500, a Thymosin Beta-4 fragment, has been examined for its potential to </span><span>influence actin regulation, mobility, and repair pathways</span><span>. Together, these compounds are of growing interest in </span><span>musculoskeletal and recovery-related research</span><span> models.</span></p>\n<p> </p>\n<p><span>Product Details:</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Type: Research-grade peptide blend</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Components: BPC-157 (5 mg) + TB-500 (5 mg)</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Category: Regenerative and recovery pathway research</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>Storage: Keep in a cool, dry environment away from direct light</span></p>\n<p><span><span class=\"Apple-tab-span\"> </span></span><span>•</span><span><span class=\"Apple-tab-span\"> </span></span><span>For professional laboratory research use only</span></p>\n<p> </p>\n<p><span>Disclaimer:</span></p>\n<p><span>This product is provided for </span><span>laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.</span></p>",
+        "vendor": "Vitale Peptide",
+        "product_type": "",
+        "tags": "",
+        "variants": [
+          {
+            "id": 44596489322543,
+            "product_id": 8084727463983,
+            "title": "Default Title",
+            "price": "69.99",
+            "sku": null,
+            "position": 1,
+            "compare_at_price": "",
+            "fulfillment_service": "manual",
+            "inventory_management": "shopify",
+            "option1": "Default Title",
+            "option2": null,
+            "option3": null,
+            "created_at": "2025-10-18T14:10:31-04:00",
+            "updated_at": "2026-04-26T09:00:36-04:00",
+            "taxable": true,
+            "barcode": "",
+            "grams": 0,
+            "image_id": null,
+            "weight": 0,
+            "weight_unit": "lb",
+            "requires_shipping": true,
+            "quantity_rule": {
+              "min": 1,
+              "max": null,
+              "increment": 1
+            },
+            "price_currency": "USD",
+            "compare_at_price_currency": "",
+            "quantity_price_breaks": []
+          }
+        ],
+        "images": [
+          {
+            "id": 38050041823279,
+            "product_id": 8084727463983,
+            "position": 1,
+            "created_at": "2025-11-19T06:19:09-05:00",
+            "updated_at": "2025-11-19T06:21:29-05:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/blendwhite.png?v=1763551289",
+            "variant_ids": []
+          },
+          {
+            "id": 37895283998767,
+            "product_id": 8084727463983,
+            "position": 2,
+            "created_at": "2025-10-22T14:32:29-04:00",
+            "updated_at": "2025-11-19T06:21:29-05:00",
+            "alt": null,
+            "width": 1024,
+            "height": 1024,
+            "src": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/blend3.png?v=1763551289",
+            "variant_ids": []
+          }
+        ],
+        "options": [
+          {
+            "id": 10246216187951,
+            "product_id": 8084727463983,
+            "name": "Title",
+            "position": 1,
+            "values": [
+              "Default Title"
+            ]
+          }
+        ]
+      },
+      "imageMatch": {
+        "shopifyImageSrc": "https://cdn.shopify.com/s/files/1/0716/1102/3407/files/blendwhite.png?v=1763551289",
+        "stem": "blendwhite",
+        "localFile": "blendwhite.webp",
+        "publicUrl": "/products/blendwhite.webp"
+      },
+      "seed": {
+        "slug": "bpc-157-tb-500blend",
+        "name": "BPC 157 & TB 500 Blend",
+        "shortDescription": "The BPC-157 &amp; TB-500 Blend is a research peptide combination formulated with 5 mg of BPC-157 and 5 mg of TB-500 per vial. This blend is",
+        "description": "The BPC-157 &amp; TB-500 Blend is a research peptide combination formulated with 5 mg of BPC-157 and 5 mg of TB-500 per vial. This blend is studied in regenerative and tissue-repair research for its potential to support cell recovery, inflammation modulation, and enhanced healing responses in laboratory settings. BPC-157, a synthetic fragment of the Body Protection Compound, has been studied for its role in angiogenesis and cellular protection , while TB-500, a Thymosin Beta-4 fragment, has been examined for its potential to influence actin regulation, mobility, and repair pathways . Together, these compounds are of growing interest in musculoskeletal and recovery-related research models. Product Details: • Type: Research-grade peptide blend • Components: BPC-157 (5 mg) + TB-500 (5 mg) • Category: Regenerative and recovery pathway research • Storage: Keep in a cool, dry environment away from direct light • For professional laboratory research use only Disclaimer: This product is provided for laboratory research use only. It is not approved for human consumption, clinical use, or therapeutic application.",
+        "price": 69.99,
+        "imageUrl": "/products/blendwhite.webp",
+        "category": "Peptides"
+      }
+    }
+  ]
+}

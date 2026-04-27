@@ -1,0 +1,121 @@
+.adm-coupons {
+  --adm-gold: #c9a227;
+  --adm-gold-dark: #a88616;
+  --adm-gold-light: #e4c04a;
+}
+
+.adm-coupons__hero-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.adm-coupons__badge {
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  color: var(--adm-gold-dark);
+  border: 1px solid rgba(201, 162, 39, 0.45);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+.adm-coupons__stat {
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  border-radius: 0.85rem;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.05),
+    0 8px 28px rgba(15, 23, 42, 0.08);
+}
+
+.adm-coupons__stat-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #6c757d;
+  margin-bottom: 0.35rem;
+}
+
+.adm-coupons__stat-value {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.adm-coupons__stat-hint {
+  font-size: 0.78rem;
+  color: #868e96;
+  margin-top: 0.25rem;
+}
+
+.adm-coupons__card {
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  border-radius: 0.85rem;
+  background: #fff;
+  height: 100%;
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.05),
+    0 10px 32px rgba(15, 23, 42, 0.08);
+}
+
+.adm-coupons__card-title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.adm-coupons__btn-gold {
+  border: none;
+  border-radius: 0.35rem;
+  padding: 0.55rem 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #1a1508;
+  background: linear-gradient(180deg, var(--adm-gold-light) 0%, var(--adm-gold) 100%);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.adm-coupons__btn-gold:hover:not(:disabled) {
+  filter: brightness(1.05);
+}
+
+.adm-coupons__btn-gold:disabled {
+  opacity: 0.65;
+}
+
+.adm-coupons__code-pill {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.45rem;
+  background: #f8f9fa;
+  border-radius: 0.25rem;
+  border: 1px solid #e9ecef;
+}
+
+.adm-coupons__empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #868e96;
+  font-size: 0.9rem;
+}
+
+.adm-coupons__empty-icon {
+  font-size: 2rem;
+  opacity: 0.35;
+  margin-bottom: 0.5rem;
+}
+
+.adm-coupons__table-wrap {
+  overflow-x: auto;
+}
+
+.adm-coupons__muted-action {
+  font-size: 0.85rem;
+  border: 1px solid #dee2e6;
+  background: #fff;
+  border-radius: 0.35rem;
+  padding: 0.35rem 0.65rem;
+}
+
+.adm-coupons__muted-action:hover {
+  background: #f8f9fa;
+}
