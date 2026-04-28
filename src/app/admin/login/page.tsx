@@ -12,7 +12,7 @@ export default function AdminLoginPage() {
   const { setSession } = useAuth();
   const toast = useToast();
   const router = useRouter();
-  const [email, setEmail] = useState("admin@sqspeptides.local");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [pending, setPending] = useState(false);
 
@@ -45,11 +45,6 @@ export default function AdminLoginPage() {
           <BrandLogo href="/shop" height={52} priority />
         </div>
         <h1 className="sqs-auth-title">Admin sign in</h1>
-        <p className="sqs-auth-hint">
-          Run <code>pnpm run db:seed:users</code> in <code>backend/</code>, then sign in with{" "}
-          <code>ADMIN_EMAIL</code> / <code>ADMIN_PASSWORD</code> from <code>backend/.env</code> (defaults:{" "}
-          <code>admin@sqspeptides.local</code> / <code>ChangeMeAdmin123!</code>).
-        </p>
         <form onSubmit={onSubmit}>
           <label className="sqs-label" htmlFor="admin-email">
             Email

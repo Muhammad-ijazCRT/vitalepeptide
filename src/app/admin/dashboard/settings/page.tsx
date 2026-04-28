@@ -276,7 +276,7 @@ export default function AdminSettingsPage() {
                     <div>
                       <h2 className="h6 fw-semibold mb-1">Outgoing mail</h2>
                       <p className="small text-secondary mb-2">
-                        Values saved here override <code>backend/.env</code> for SMTP when set. Leave fields empty to fall back to environment variables.
+                        Values saved here override the API server&apos;s SMTP environment when set. Leave fields empty to fall back to environment variables.
                       </p>
                       <p className={`small mb-0 fw-medium ${mailConfigured ? "text-success" : "text-secondary"}`}>
                         Status: {mailConfigured ? "SMTP host and from address look configured" : "Complete host and from address for reliable delivery"}

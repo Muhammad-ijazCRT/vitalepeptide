@@ -71,7 +71,7 @@ export function FeaturedCarousel({ products }: { products: Product[] }) {
   if (products.length === 0) {
     return (
       <p className="featured-section__empty text-white-50 mb-0">
-        No products available yet. Start the API and run the database seed.
+        No featured products yet. Check back soon.
       </p>
     );
   }

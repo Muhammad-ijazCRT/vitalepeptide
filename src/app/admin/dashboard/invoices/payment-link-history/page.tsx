@@ -108,8 +108,8 @@ export default function PaymentLinkHistoryPage() {
     <div className="payment-history-page">
       {apiDown ? (
         <div className="alert alert-warning mb-4" role="status">
-          <strong>API not reachable.</strong> Start the backend (<code>cd backend</code> then <code>pnpm run dev</code>) and ensure{" "}
-          <code>NEXT_PUBLIC_API_URL</code> matches your API port.
+          <strong>Store API not reachable.</strong> Check your network connection. If this keeps happening, whoever hosts
+          the site can verify the storefront is pointed at the correct API URL and that the API service is running.
         </div>
       ) : null}
 

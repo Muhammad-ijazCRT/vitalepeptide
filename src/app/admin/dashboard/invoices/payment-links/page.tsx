@@ -141,11 +141,8 @@ export default function AdminPaymentLinksPage() {
       {apiDown ? (
         <div className="col-12">
           <div className="alert alert-warning mb-0" role="status">
-            <strong>API not reachable.</strong> Start the backend from the project:{" "}
-            <code className="user-select-all">cd backend</code> then <code className="user-select-all">pnpm run dev</code>{" "}
-            (default <code className="user-select-all">http://localhost:3001</code>). Match{" "}
-            <code className="user-select-all">NEXT_PUBLIC_API_URL</code> in the site root <code>.env</code> if you use a
-            different port.
+            <strong>Store API not reachable.</strong> Check your network connection. If this keeps happening, whoever hosts
+            the site can verify the storefront is pointed at the correct API URL and that the API service is running.
           </div>
         </div>
       ) : null}
