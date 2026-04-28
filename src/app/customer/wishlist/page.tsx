@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useWishlist } from "../../../components/wishlist-provider";
+import { getProductImageSrc } from "../../../lib/product-image";
 
 function money(n: number) {
   return `$${n.toFixed(2)}`;
@@ -44,7 +45,7 @@ export default function CustomerWishlistPage() {
                     <Link href={`/shop/${encodeURIComponent(p.slug)}`} className="d-block rounded-2 overflow-hidden bg-light">
                       {/* eslint-disable-next-line @next/next/no-img-element -- stored catalog URLs may be any origin */}
                       <img
-                        src={p.imageUrl}
+                        src={getProductImageSrc(p.imageUrl)}
                         alt=""
                         width={88}
                         height={88}

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "../../../../../contexts/auth-provider";
 import { fetchAdminProducts, type ProductPayload } from "../../../../../lib/admin-client";
+import { getProductImageSrc } from "../../../../../lib/product-image";
 
 export default function AdminInventoryPage() {
   const { token } = useAuth();
@@ -61,7 +62,7 @@ export default function AdminInventoryPage() {
                 rows.map((p) => (
                   <tr key={p.id}>
                     <td>
-                      <Image src={p.imageUrl} alt="" width={40} height={40} className="rounded border bg-light" style={{ objectFit: "cover" }} />
+                      <Image src={getProductImageSrc(p.imageUrl)} alt="" width={40} height={40} className="rounded border bg-light" style={{ objectFit: "cover" }} />
                     </td>
                     <td className="fw-medium">{p.name}</td>
                     <td className="font-monospace text-break">{p.slug}</td>

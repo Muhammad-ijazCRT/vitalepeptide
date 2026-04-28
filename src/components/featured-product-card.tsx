@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { getProductImageSrc } from "../lib/product-image";
 import { Product } from "../types";
 
 export function FeaturedProductCard({ product }: { product: Product }) {
@@ -14,7 +15,7 @@ export function FeaturedProductCard({ product }: { product: Product }) {
       <article className="featured-card h-100">
         <div className="featured-card__media">
           <Image
-            src={product.imageUrl}
+            src={getProductImageSrc(product.imageUrl)}
             alt={product.name}
             width={360}
             height={360}

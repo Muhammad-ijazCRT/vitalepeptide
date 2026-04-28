@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FeaturedCarousel } from "../components/featured-carousel";
 import { ProductCard } from "../components/product-card";
 import { getProducts } from "../lib/api";
+import { getProductImageSrc } from "../lib/product-image";
 
 export default async function HomePage() {
   const products = await getProducts();
@@ -94,7 +95,7 @@ export default async function HomePage() {
                 >
                   <article className="bg-light border rounded-3 p-2 d-grid mini-card h-100">
                     <Image
-                      src={product.imageUrl}
+                      src={getProductImageSrc(product.imageUrl)}
                       alt=""
                       width={72}
                       height={72}

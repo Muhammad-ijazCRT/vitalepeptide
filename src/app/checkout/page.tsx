@@ -13,11 +13,15 @@ import {
   checkout,
   completeInvoicePayment,
   fetchInvoicePreview,
+  fetchPaymentOptions,
   previewCheckoutCoupon,
   type InvoicePreviewResult,
+  type PayramDepositInfo,
 } from "../../lib/api";
+import { getProductImageSrc } from "../../lib/product-image";
 
 type AppliedCoupon = { code: string; discount: number; subtotal: number; total: number };
+type CartPaymentMethod = "nowpayments" | "payram" | "payram_crypto" | "payram_onramp";
 
 function InvoiceCheckoutPanel({ token }: { token: string }) {
   const toast = useToast();
@@ -94,7 +98,7 @@ function InvoiceCheckoutPanel({ token }: { token: string }) {
               </span>
             </div>
             <p className="small text-secondary mb-3">
-              When you continue, you will open our cryptocurrency checkout (NOWPayments) to complete this payment.
+              When you continue, you will open the cryptocurrency payment page to complete this payment.
             </p>
             <button type="button" className="checkout-submit w-100" disabled={submitting} onClick={onContinue}>
               {submitting ? "Starting…" : "Continue"}
@@ -123,6 +127,13 @@ function CheckoutPageInner() {
   const [coupon, setCoupon] = useState("");
   const [appliedCoupon, setAppliedCoupon] = useState<AppliedCoupon | null>(null);
   const [couponApplying, setCouponApplying] = useState(false);
+  const [paymentOptions, setPaymentOptions] = useState<{
+    nowpayments: boolean;
+    payram: boolean;
+    payramEnvironment: string | null;
+    payramDeposit?: PayramDepositInfo | null;
+  } | null>(null);
+  const [paymentMethod, setPaymentMethod] = useState<CartPaymentMethod>("nowpayments");
 
   const itemsFingerprint = useMemo(
     () => JSON.stringify(items.map((i) => ({ id: i.product.id, q: i.quantity }))),
@@ -140,6 +151,23 @@ function CheckoutPageInner() {
       toast.info("You returned from the payment page without completing payment.");
     }
   }, [searchParams, toast]);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      const o = await fetchPaymentOptions();
+      if (cancelled) return;
+      setPaymentOptions(o);
+      if (o.payram) {
+        setPaymentMethod("payram");
+      } else if (o.nowpayments) {
+        setPaymentMethod("nowpayments");
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const itemCount = useMemo(() => items.reduce((s, i) => s + i.quantity, 0), [items]);
   const cartSubtotal = total;
@@ -165,13 +193,25 @@ function CheckoutPageInner() {
         productId: item.product.id,
         quantity: item.quantity,
       })),
+      paymentMethod,
       ...(appliedCoupon ? { couponCode: appliedCoupon.code } : {}),
     };
 
-    const response = await checkout(payload, token);
+    const response = await checkout(payload, token) as Record<string, unknown> & {
+      success?: boolean;
+      paymentUrl?: string;
+      paymentError?: string;
+      orderEmailSent?: boolean;
+    };
     if (response?.success) {
       const paymentUrl = typeof response.paymentUrl === "string" ? response.paymentUrl.trim() : "";
       if (paymentUrl.length > 0) {
+        if (response.orderEmailSent === false) {
+          toast.info(
+            "We could not send the order confirmation email (SMTP not set or send failed). You can still complete payment — opening the payment page…"
+          );
+          await new Promise((r) => setTimeout(r, 1000));
+        }
         redirectingToPayment.current = true;
         clearCart();
         window.location.assign(paymentUrl);
@@ -229,7 +269,7 @@ function CheckoutPageInner() {
       <main className="checkout-page py-5">
         <div className="container checkout-page__container text-center py-5">
           <p className="h6 mb-2">Redirecting to payment</p>
-          <p className="text-secondary small mb-0">Opening NOWPayments in this window…</p>
+          <p className="text-secondary small mb-0">Opening the payment page in this window…</p>
         </div>
       </main>
     );
@@ -270,7 +310,7 @@ function CheckoutPageInner() {
               {items.map((item) => (
                 <div key={item.product.id} className="checkout-line">
                   <div className="checkout-line__media d-flex align-items-center justify-content-center">
-                    <Image src={item.product.imageUrl} alt="" width={72} height={72} className="object-fit-contain p-1" />
+                    <Image src={getProductImageSrc(item.product.imageUrl)} alt="" width={72} height={72} className="object-fit-contain p-1" />
                   </div>
                   <div className="checkout-line__body">
                     <p className="checkout-line__name">{item.product.name}</p>
@@ -365,15 +405,67 @@ function CheckoutPageInner() {
                   Payment
                 </p>
 
-                <div className="checkout-pay-method">
-                  <div className="checkout-pay-method__title">NowPayments</div>
-                  <p className="checkout-pay-method__desc mb-0">
-                    Pay with cryptocurrency through NowPayments. After you place your order, you will continue in the crypto payment flow.
+                {paymentOptions === null ? (
+                  <p className="small text-secondary mb-2">Loading payment options…</p>
+                ) : !paymentOptions.nowpayments && !paymentOptions.payram ? (
+                  <p className="small text-danger mb-0">
+                    No payment gateway is configured. The store must enable NOWPayments (admin) and/or set PayRam on the server.
                   </p>
-                </div>
+                ) : (
+                  <ul className="checkout-pay-list list-unstyled mb-0" aria-label="Payment method">
+                    {paymentOptions.payram ? (
+                      <li className="mb-2">
+                        <label className="checkout-pay-option w-100 mb-0">
+                          <input
+                            type="radio"
+                            className="form-check-input"
+                            name="cartPaymentMethod"
+                            checked={
+                              paymentMethod === "payram" ||
+                              paymentMethod === "payram_crypto" ||
+                              paymentMethod === "payram_onramp"
+                            }
+                            onChange={() => setPaymentMethod("payram")}
+                          />
+                          <span>
+                            <span className="checkout-pay-option__title">
+                              PayRam
+                              {paymentOptions.payramEnvironment !== null && paymentOptions.payramEnvironment.length > 0 ? (
+                                <span className="badge bg-secondary ms-1 align-middle" style={{ fontSize: "0.65em", fontWeight: 600 }}>
+                                  {paymentOptions.payramEnvironment}
+                                </span>
+                              ) : null}
+                            </span>
+                          </span>
+                        </label>
+                      </li>
+                    ) : null}
+                    {paymentOptions.nowpayments ? (
+                      <li className="mb-0">
+                        <label className="checkout-pay-option w-100 mb-0">
+                          <input
+                            type="radio"
+                            className="form-check-input"
+                            name="cartPaymentMethod"
+                            checked={paymentMethod === "nowpayments"}
+                            onChange={() => setPaymentMethod("nowpayments")}
+                          />
+                          <span>
+                            <span className="checkout-pay-option__title">NOWPayments (crypto)</span>
+                            <span className="checkout-pay-option__desc d-block">Pay with cryptocurrency via NOWPayments.</span>
+                          </span>
+                        </label>
+                      </li>
+                    ) : null}
+                  </ul>
+                )}
 
                 <p className="checkout-due">${grandTotal.toFixed(2)} due</p>
-                <button type="submit" className="checkout-submit">
+                <button
+                  type="submit"
+                  className="checkout-submit"
+                  disabled={paymentOptions === null || (!paymentOptions?.nowpayments && !paymentOptions?.payram)}
+                >
                   Continue to payment
                 </button>
                 <p className="small text-secondary text-center mt-3 mb-0">

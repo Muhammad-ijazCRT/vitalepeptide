@@ -78,6 +78,49 @@ export async function previewCheckoutCoupon(payload: CouponPreviewPayload): Prom
   };
 }
 
+export type PayramDepositInfo = {
+  network: string | null;
+  depositWalletLabel: string | null;
+  fundSweeper: string | null;
+  masterWallet: string | null;
+  coldWallet: string | null;
+};
+
+export type PaymentOptionsResponse = {
+  nowpayments: boolean;
+  payram: boolean;
+  payramEnvironment: string | null;
+  payramDeposit?: PayramDepositInfo | null;
+};
+
+/**
+ * Loads which gateways the API has keys for (NOWPayments). PayRam options are **always shown** on
+ * /checkout so customers can choose them; the API must have `PAYRAM_BASE_URL` + `PAYRAM_API_KEY` to
+ * actually open a PayRam link. Set `NEXT_PUBLIC_HIDE_PAYRAM=1` to hide PayRam in the UI.
+ */
+export async function fetchPaymentOptions(): Promise<PaymentOptionsResponse> {
+  const hidePayramUi =
+    process.env.NEXT_PUBLIC_HIDE_PAYRAM === "1" || process.env.NEXT_PUBLIC_HIDE_PAYRAM === "true";
+  const envBadge = process.env.NEXT_PUBLIC_PAYRAM_ENVIRONMENT?.trim() || null;
+
+  const response = await tryFetch(`${API_URL}/checkout/payment-options`, {
+    cache: "no-store",
+  });
+  let data: PaymentOptionsResponse = { nowpayments: true, payram: true, payramEnvironment: null, payramDeposit: null };
+  if (response?.ok) {
+    const parsed = (await response.json().catch(() => null)) as PaymentOptionsResponse | null;
+    if (parsed && typeof parsed.nowpayments === "boolean") {
+      data = { ...data, ...parsed, payram: true };
+    }
+  }
+  return {
+    nowpayments: data.nowpayments,
+    payram: !hidePayramUi,
+    payramEnvironment: data.payramEnvironment ?? envBadge,
+    payramDeposit: data.payramDeposit ?? null,
+  };
+}
+
 export async function checkout(payload: unknown, bearerToken?: string | null) {
   const headers: Record<string, string> = { "Content-Type": "application/json" };
   if (bearerToken) {

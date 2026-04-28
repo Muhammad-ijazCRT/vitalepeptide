@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useCart } from "./cart-provider";
 import { useToast } from "../contexts/toast-provider";
+import { getProductImageSrc } from "../lib/product-image";
 import { Product } from "../types";
 
 export function ProductCard({ product }: { product: Product }) {
@@ -15,7 +16,7 @@ export function ProductCard({ product }: { product: Product }) {
       <Link href={`/shop/${product.slug}`} className="shop-grid-card__image-link text-decoration-none text-reset d-block">
         <div className="featured-card__media">
           <Image
-            src={product.imageUrl}
+            src={getProductImageSrc(product.imageUrl)}
             alt={product.name}
             width={360}
             height={360}

@@ -6,6 +6,7 @@ import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "../../../../contexts/auth-provider";
 import { useToast } from "../../../../contexts/toast-provider";
 import { deleteAdminProduct, fetchAdminProducts, type ProductPayload } from "../../../../lib/admin-client";
+import { getProductImageSrc } from "../../../../lib/product-image";
 
 export default function AdminProductsPage() {
   const { token } = useAuth();
@@ -80,7 +81,7 @@ export default function AdminProductsPage() {
                 rows.map((p) => (
                   <tr key={p.id}>
                     <td className="ps-4">
-                      <Image src={p.imageUrl} alt="" width={48} height={48} className="rounded-2 border bg-light" style={{ objectFit: "cover" }} />
+                      <Image src={getProductImageSrc(p.imageUrl)} alt="" width={48} height={48} className="rounded-2 border bg-light" style={{ objectFit: "cover" }} />
                     </td>
                     <td className="fw-medium">{p.name}</td>
                     <td className="font-monospace small text-break">{p.slug}</td>
