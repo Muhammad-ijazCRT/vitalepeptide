@@ -37,6 +37,9 @@ export function CartNavLink({ variant = "header", className = "" }: Props) {
   const isHeader = variant === "header";
   const iconSize = isHeader ? 24 : 22;
 
+
+
+  
   return (
     <Link
       href="/checkout"
