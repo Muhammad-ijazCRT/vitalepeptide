@@ -8,6 +8,10 @@ type Props = {
   priority?: boolean;
 };
 
+
+
+
+
 export function BrandLogo({ href = "/shop", height = 48, className, priority }: Props) {
   const img = (
     <Image
